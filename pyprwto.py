@@ -1,4 +1,4 @@
-pythonimport streamlit as st
+import streamlit as st
 
 st.title("--- ΚΑΛΩΣ ΗΡΘΕΣ ΣΤΟ ΤΕΣΤ ---")
 
