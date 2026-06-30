@@ -97,11 +97,9 @@ elif st.session_state.step == 11:
     ans3 = st.session_state.apantiseis["erwthsh3"]
     
     if ans1 == "προτιμώ να δουλεύω με αριθμούς" and ans3 == "Ναι":
-        st.success("ΣΥΓΧΑΡΙΤΗΡΙΑ! ΕΙΣΑΙ ΜΑΛΑΚΑΣ!!! 
-        με την επιστημονική εγκυρότητα by lefte")
+        st.success("ΣΥΓΧΑΡΙΤΗΡΙΑ! ΕΙΣΑΙ ΜΑΛΑΚΑΣ!!! by lefte")
     else:
-        st.info("ΣΥΓΧΑΡΙΤΗΡΙΑ ΕΙΣΑΙ ΜΕΓΑΛΟΣ ΜΑΛΑΚΑΣ!!!
-        με την επιστημονική εγκυρότητα by lefte")
+        st.info("ΣΥΓΧΑΡΙΤΗΡΙΑ ΕΙΣΑΙ ΜΕΓΑΛΟΣ ΜΑΛΑΚΑΣ!!! by lefte")
         
     # Κουμπί για επανεκκίνηση του τεστ
     if st.button("Κάνε πάλι το τεστ", key="reset"):
